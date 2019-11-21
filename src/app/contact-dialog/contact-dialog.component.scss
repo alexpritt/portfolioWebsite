@@ -1,0 +1,26 @@
+.mail {
+    color: lightskyblue;
+    transition: .5s;
+}
+.mail:hover {
+    color: darkslategray;
+    transition: .5s;
+}
+.mail:active {
+    color: darkslateblue;
+}
+
+button {
+    font-family: 'Raleway', 'Arial';
+    font-size: 1em;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: #393E46;
+    transition: .5s;
+}

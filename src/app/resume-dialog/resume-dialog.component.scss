@@ -1,0 +1,30 @@
+.dialogContainer {
+    text-align: center;
+    background-color: #222831;
+}
+
+.dialogActions {
+    background-color: #222831;
+}
+
+li {
+    display: inline-block;
+    border: 1px solid #CCC;
+    padding: 5px 10px;
+}
+
+button {
+    font-family: 'Raleway', 'Arial';
+    font-size: 1em;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: #393E46;
+    transition: .5s;
+}
+

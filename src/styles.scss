@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
+@import '~@angular/material/theming';
+@include mat-core();
+
+html {
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    background-image: url('background.jpeg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', 'Arial';
+    color: white;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 6px;
+}
+
+ul li a {
+    font-size: 2em;
+}
+html, body { height: 100%; }
+body { margin: 0; }
+
+mat-dialog-container {
+    text-align: center
+}
