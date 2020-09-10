@@ -1,5 +1,7 @@
 # PortfolioWebsite
 
+Online at https://alexpritt.com/
+
 An e-portfolio that acts as an online resume. Created for Kent State University's Internship In Computer Science course using Angular 8.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
